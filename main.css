@@ -6,7 +6,152 @@
   box-sizing: border-box;
   border: 1px solid rgb (200,200,200);
 }
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+
+}
 
 header, footer, section {
   padding: 5%;
+}
+/* Typography */
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+h2 {
+  font-size: 2.0rem;
+  font-weight: bold;
+
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+p {
+  font-size: .075
+}
+span {
+  color: #DCA625
+}
+
+/* Modular Class - this is when you want to target a very specific function.  for ex  gettting ride of padding,
+  */
+.padding-none {
+  padding: 0;
+}
+.padding-5 {
+  padding: 5%;
+}
+
+.padding-bottom-5 {
+  padding-bottom: 5%;
+}
+.padding-right-10 {
+  padding-right: 10%;
+}
+.padding-10 {
+  padding: 10%;
+}
+
+.bg-dark {
+  background-color: #1b2b36;
+  color: white;
+}
+.bg-dark h3 {
+  text-align: center;
+
+}
+
+/* Header instructions */
+header {
+  background-image: url("images/leaves.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  min-height: 90vh;
+}
+
+.bg-pug {
+  background-image: url("images/pug.jpg");
+  background-size: cover;
+  background-position: 50% 38%;
+  /* min-height: 10rem; */
+
+}
+
+.bg-bed {
+  background-image: url("images/bed.jpg");
+  background-size: cover;
+  background-position: 50% 38%;
+}
+
+.bg-pencils {
+  background-image: url("images/pencils.jpg");
+  background-size: cover;
+  background-position: 50% 38%;
+  min-height: 100vh;
+  text-align: center;
+
+
+}
+
+.bg-pencils h4 {
+  font-weight: 400;
+}
+.bg-pencils span{
+  color: white;
+
+}
+
+.quotation_mark {
+  font-size: 4rem;
+
+}
+.author {
+  font-size: 0.8rem;
+  text-align: right;
+  color: grey;
+}
+/* Form and inputs are elements and therefore no "full stop" is required before this command */
+ input, textarea {
+  width: 100%;
+  resize: none;
+  padding: 2%;
+  margin-bottom: 1%;
+}
+
+.contact-button {
+  background-color: #DCA625;
+  border: 1px solid #DCA625;
+  color: #fff;
+}
+
+.contact-form {
+  border: 1px aolis #eee;
+  padding: 2%;
+  background-color: #1b2b36;
+}
+
+.contact-input input {
+ background-color: #ffff;
+ width:200px;
+}
+
+footer span {
+  display: block;
+}
+.icon {
+  font-size: 4rem;
+
+}
+.center {
+  text-align: center;
+  margin-bottom: 10%;
+}
+.text-weight {
+  font-weight: 400;
 }
