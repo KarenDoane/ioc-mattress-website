@@ -177,8 +177,3 @@ footer span {
 ::placeholder {
   font-size: 1.7rem;
 }
-
-@media all and (max-width: 576px) {
-  .mobile-flip {
-    flex-direction: column-reverse}
-}
