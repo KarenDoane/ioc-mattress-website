@@ -69,6 +69,7 @@ span {
 /* Header instructions */
 header {
   background-image: url("images/leaves.jpg");
+  background-color: #445A43;
   background-size: cover;
   color: white;
   text-align: center;
@@ -91,6 +92,7 @@ header {
 
 .bg-pencils {
   background-image: url("images/pencils.jpg");
+  background-color: #dca625;
   background-size: cover;
   background-position: 50% 38%;
   min-height: 100vh;
