@@ -80,6 +80,7 @@ header {
   background-image: url("images/pug.jpg");
   background-size: cover;
   background-position: 50% 38%;
+  min-height: 55vh;
   /* min-height: 10rem; */
 
 }
@@ -88,6 +89,7 @@ header {
   background-image: url("images/bed.jpg");
   background-size: cover;
   background-position: 50% 38%;
+  min-height: 55vh;
 }
 
 .bg-pencils {
@@ -178,4 +180,10 @@ footer span {
 }
 ::placeholder {
   font-size: 1.7rem;
+}
+
+@media (max-width:576px) {
+  .mob-flip {
+    flex-direction: column-reverse;
+  }
 }
