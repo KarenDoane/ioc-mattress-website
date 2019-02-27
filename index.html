@@ -9,7 +9,7 @@
   <!-- These are my CSS links, the External resources (fonts, etc) are put first,
   and my own css last -->
   <!-- google font -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
 
   <!-- Gridlex -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
@@ -26,6 +26,7 @@
   <!-- this is where we include anything that will be displayed on my site. -->
 
   <header class="grid-middle-center">
+
     <!--  In order to keep both the h1 and h2 etc included in this class, a div needs to be created to encompass this as a whole  -->
     <div>
       <h1>
@@ -35,11 +36,33 @@
 
     <h3 class="text-weight"> the ultimate mattress solution </h3>
 
+  <nav>
+    <a href="#benefits"> Benefits </a>
+    <a href="#features"> Features </a>
+    <a href="#testimonials"> Testimonials </a>
+    <a href="#connect"> Connect </a>
+  </nav>
+  <nav>
+     <div class="burger-button">
+         <span class="burger-top"></span>
+         <span class="burger-middle"></span>
+         <span class="burger-bottom"></span>
+     </div>
+      <div class="burger-menu">
+        <a href="#benefits"> Benefits </a>
+        <a href="#features"> Features </a>
+        <a href="#testimonials"> Testimonials </a>
+        <a href="#connect"> Connect </a>
+     </div>
+   </nav>
+
+
+
   </div>
   </header>
 
 <!-- this is my SECTION -->
-  <section class="grid padding-none">
+  <section id="benefits" class="grid padding-none">
     <div class="col-6_xs-12 bg-pug" >
     </div>
 
@@ -193,6 +216,10 @@
     </form>
 
   </footer>
+
+<script src="jquery.js"></script>
+
+<script src="main.js"> </script>
 
 
 </body>
