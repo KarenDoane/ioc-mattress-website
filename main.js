@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   //jQuery HERE
 
-  // Start Jquery Cod Here
+  // Start Jquery Code Here
 
   //Smooth Scroll Jquery Code
 
